@@ -10,6 +10,7 @@ This portfolio presents selected AI-assisted engineering projects through concis
 
 | Case study | Problem addressed | Engineering focus |
 | --- | --- | --- |
+| [DIGITAL TWIN](case-studies/digital-twin.md) | Personal AI decision support can confuse recorded history, inferred preferences, and independent evidence. | Temporal provenance, cognitive modeling, evaluation planning, and human oversight. |
 | [AI OS Gateway](case-studies/ai-os-gateway.md) | A model's proposed action is not sufficient authorization to execute it. | Explicit authority, operation identity, state handling, regression checks. |
 | [AI OS Control Center](case-studies/ai-os-control-center.md) | Project status can become fragmented or be mistaken for permission to act. | Read-oriented visibility, local operation, conservative status reporting. |
 | [WorkflowKits](case-studies/workflowkits.md) | AI-assisted work can lose requirements, role boundaries, and evidence between steps. | Portable workflows, role separation, handoffs, and controlled progression. |
