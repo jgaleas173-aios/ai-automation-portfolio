@@ -1,30 +1,54 @@
-# Jonathan Galeas | AI & Automation Project Portfolio
+# Jonathan Galeas | AI Systems & Automation Portfolio
 
-**Technical operations, controlled execution, and evidence-based delivery.**
+**Technical operations · AI-assisted systems design · Controlled execution · Evidence-based delivery**
 
-This portfolio presents selected AI-assisted engineering projects through concise case studies. The focus is the problem, the design decisions, my contribution, the available evidence, and the limitations.
+[GitHub profile](https://github.com/jgaleas173-aios) · [LinkedIn](https://www.linkedin.com/in/jonathan-galeas/) · [Conceptual project map](architecture-overview.md)
 
-[GitHub profile](https://github.com/jgaleas173-aios)
+I lead requirements, architectural decisions, workflow design, and evidence reconciliation in personal AI-assisted engineering projects. My background in engineering document control informs an approach built around **scope, provenance, revision integrity, and explicit human authority**.
 
-## Selected work
+This is a portfolio of **case studies**, not a source-code release or a claim of production-grade systems.
 
-| Case study | Problem addressed | Engineering focus |
+## Start here: DIGITAL TWIN
+
+**[DIGITAL TWIN — Cognitive Decision Support](case-studies/digital-twin.md)**
+
+The challenge: personalized AI must distinguish what a person previously said from what a model infers and what current evidence supports.
+
+My design approach: time-aware source records, a separate advisory reasoning layer, explicit contradiction handling, and human control. The case study contains a conceptual architecture, a hypothetical decision example, and proposed evaluation criteria.
+
+**Status:** Active private research and engineering; no publicly validated end-to-end deployment.
+
+## Selected engineering work
+
+| Case study | Problem addressed | Publicly documented evidence |
 | --- | --- | --- |
-| [DIGITAL TWIN](case-studies/digital-twin.md) | Personal AI decision support can confuse recorded history, inferred preferences, and independent evidence. | Temporal provenance, cognitive modeling, evaluation planning, and human oversight. |
-| [AI OS Gateway](case-studies/ai-os-gateway.md) | A model's proposed action is not sufficient authorization to execute it. | Explicit authority, operation identity, state handling, regression checks. |
-| [AI OS Control Center](case-studies/ai-os-control-center.md) | Project status can become fragmented or be mistaken for permission to act. | Read-oriented visibility, local operation, conservative status reporting. |
-| [WorkflowKits](case-studies/workflowkits.md) | AI-assisted work can lose requirements, role boundaries, and evidence between steps. | Portable workflows, role separation, handoffs, and controlled progression. |
+| **[DIGITAL TWIN](case-studies/digital-twin.md)** | Personal AI can confuse historical memory, inference, and recommendation. | Private project README establishes the objective and research roadmap; conceptual architecture and proposed checks published here. |
+| **[AI OS Gateway](case-studies/ai-os-gateway.md)** | An AI-generated action request is not execution authority. | Private source structure and a passing, revision-specific GitHub Actions run were inspected; not independently reproduced here. |
+| **[AI OS Control Center](case-studies/ai-os-control-center.md)** | Project dashboards can be mistaken for approval or execution authority. | Private source and repository-level static checks were inspected; no live runtime validation claimed here. |
+| **[WorkflowKits](case-studies/workflowkits.md)** | Multi-stage AI development can lose scope, review independence, or its evidence trail. | A private source archive and governing documents were inspected; no fresh CI run established. |
 
-## My role
+[**How the projects relate (conceptual architecture)**](architecture-overview.md)
 
-I lead problem framing, requirements, workflow design, scope decisions, and evidence reconciliation in these personal projects. Development is AI-assisted. The portfolio does not imply that every source line was written unaided or that all review stages have been independently completed.
+## What I do
 
-## Reading the evidence
+**Requirements and technical decisions.** Define outcomes, constraints, acceptance criteria, and the difference between a reversible experiment and an authorized change.
 
-Each case study distinguishes documentation and repository observations from behavior actually reproduced. Existing CI results describe checks at specific source revisions; they are not a universal reliability guarantee or a production security certification.
+**AI-assisted implementation coordination.** Use coding models and development tools while maintaining separate planning, implementation, and review responsibilities. I do not represent generated code as unaided work.
 
-The source repositories remain private. These case studies do not provide a public software release or grant access to private source, operational evidence, or personal data.
+**Document and evidence control.** Track the source revision, test context, review status, and unresolved blockers rather than treating an attractive demonstration as proof of reliability.
 
-## Current limitations
+**Operational context.** Bring engineering document-control experience to technical systems, construction technology, and responsible automation.
 
-No public runnable demo, independent security certification, or production deployment is represented here. A future demonstration should use synthetic inputs and a separately reviewed source selection, not the private operational environment.
+## Evidence standards
+
+A **documented design** is a statement of intent. An **inspected artifact** is evidence of what exists at a particular revision. A **passing check** applies only to the checks and version actually run. **Independent review** and **owner acceptance** are separate determinations.
+
+Every case study names important limitations. No production security certification, public runnable demo, or universal correctness claim is implied.
+
+## Scope and access
+
+The operational source repositories are intentionally private to protect working artifacts, security controls, and personal data. The public materials are independently written summaries with selected, non-sensitive technical explanations. The projects are not necessarily integrated into a single deployed product.
+
+For hiring teams, start with [DIGITAL TWIN](case-studies/digital-twin.md), then review the [project map](architecture-overview.md) and the other case studies based on the role.
+
+*Portfolio evidence snapshot: October 8, 2026. Individual case studies identify their own evidence boundaries.*
